@@ -95,13 +95,13 @@ width:1200px;
 
 .top-logo {margin-top:32px; margin-bottom:38px; width:160px;}
 
-/* 메인메뉴 */
+/* Main Menu................... */
 
 #nav2016 {margin-left:180px; margin-top:52px;}
 
 #mainNavi{ list-style:none;}
 #mainNavi > li {float:left;}
-#mainNavi > li  a{ display:block; text-decoration:none; font-size:18px;  color:#000; margin-right:45px; overflow:hidden; background-color:#fff; height:42px; }
+#mainNavi > li  a{ display:block; text-decoration:none; font-size:14px;  color:#000; margin-right:20px; overflow:hidden; background-color:#fff; height:42px; }
 #mainNavi li a:hover{ color:#0a9ada;}
 
 #mainNavi li ul{ opacity:0; position:absolute; width:200px; list-style-type:none; z-index:9999; background-color:#fff;border:1px solid #005eae;  padding-left:20px;  padding-top:20px; padding-bottom:20px;}
