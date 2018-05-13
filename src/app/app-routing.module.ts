@@ -4,7 +4,7 @@ import { HeaderComponent } from './header/header.component';
 const routes: Routes = [
   {
     // show header using <router-outlet>
-    path: 'rc1',
+    path: '',
     component: HeaderComponent
   },
 
