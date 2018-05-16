@@ -1,6 +1,5 @@
 
 .tabs {
-	
 	overflow: hidden;
 	margin: 0 auto;
 	width: 1200px;
@@ -15,12 +14,10 @@
 
 .tabs table{
 width:1200px;
-	
 }
 
 
 .tabs nav ul {
-
 	margin: 0 auto;
 	padding: 0;
 	list-style: none;
@@ -60,17 +57,13 @@ width:1200px;
 	outline: none;
 }
 
-
-
 /* Content */
 .content-wrap {padding-top:30px;padding-bottom:40px;
-	
 }
 
 .content-wrap section {
 	display: none; font-size:14px;	
 	width: 1200px; 
-
 }
 
 .content-wrap section.content-current {	display: block;}
@@ -98,11 +91,15 @@ width:1200px;
 /* Main Menu................... */
 
 /* #nav2016 {margin-left:180px; margin-top:52px;} */
-#nav2016 {margin-left:180px; margin-top:52px;}
+#nav2016 {
+    margin-left:140px; 
+    margin-top:52px; 
+    /* border:1px solid #005eae; */
+    }
 
-#mainNavi{ list-style:none;}
+#mainNavi{ list-style:none; }
 #mainNavi > li {float:left;}
-#mainNavi > li  a{ display:block; text-decoration:none; font-size:15px; font-weight:bold; color:#000; margin-right:6px; overflow:hidden; background-color:#fff; height:42px; }
+#mainNavi > li  a{ display:block; text-decoration:none; font-size:15px; font-weight:bold; color:#000; margin-right:12px; overflow:hidden; background-color:#fff; height:42px; }
 #mainNavi li a:hover{ color:#F00;}
 
 #mainNavi li ul{ opacity:0; position:absolute; width:200px; list-style-type:none; z-index:9999; background-color:#fff;border:1px solid #005eae;  padding-left:20px;  padding-top:20px; padding-bottom:20px;}
@@ -111,7 +108,6 @@ width:1200px;
 #mainNavi li:hover ul li{height:24px; line-height:20px;  }
 #mainNavi li ul li a{ font-size:14px;}
 #mainNavi li ul li a:hover{}
-
 
 
 #mainNavi_eng { list-style:none;}
@@ -346,15 +342,7 @@ cursor: default;
 .foot-logo2 {float:right; margin-top:40px;}
 
 
-
-
-
-
-
-
-
-
-/* 초기화 */
+/* Initialize.....  */
 
 // overflow-y: scroll - shows extra vertical scroll for image overflow
 html {overflow-y: hidden}
@@ -395,7 +383,7 @@ a:hover, a:focus, a:active {text-decoration:none}
 
 #logo {float:left; padding:5px 0 0}
 
-/* 전체 검색 */
+/* Entire Search  */
 #hd_sch {float:left;margin:0 0 0 20px;padding:0;border:1px solid #c3c6ca}
 #hd_sch legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
 #hd_sch #sch_stx {padding-left:5px;width:110px;height:24px;border:0;background:#fff;line-height:1.9em !important;line-height:1.6em}
@@ -407,7 +395,7 @@ a:hover, a:focus, a:active {text-decoration:none}
 .ts_up {font-size:1.167em !important}
 .ts_up2 {font-size:1.3em !important}
 
-/* 상단 회원가입 등 링크 */
+/* Upper Member Registration 상단 회원가입 등 링크 */
 #tnb {float:right;margin:0;padding:0;list-style:none;zoom:1}
 #tnb:after {display:block;visibility:hidden;clear:both;content:""}
 #tnb li {float:left;margin:0 0 0 5px}
@@ -516,7 +504,7 @@ a.btn_frmline, button.btn_frmline {display:inline-block;padding:0 5px;height:24p
 a.btn_frmline {line-height:24px}
 button.btn_frmline {font-size:1em}
 
-/* 게시판용 버튼 */
+/* BBS Botton 게시판용 버튼 */
 a.btn_b01 {display:inline-block;padding:7px;border:1px solid #d9ded9;background:#f2f5f9;color:#000;text-decoration:none;vertical-align:middle}
 a.btn_b01:focus, .btn_b01:hover {text-decoration:none}
 a.btn_b02 {display:inline-block;padding:7px 7px;border:1px solid #3b3c3f;background:#4b545e;color:#fff;text-decoration:none;vertical-align:middle}
@@ -524,10 +512,10 @@ a.btn_b02:focus, .btn_b02:hover {text-decoration:none}
 a.btn_admin {display:inline-block;padding:7px;border:1px solid #e8180c;background:#e8180c;color:#fff;text-decoration:none;vertical-align:middle} /* 관리자 전용 버튼 */
 a.btn_admin:focus, a.btn_admin:hover {text-decoration:none}
 
-/* 댓글 스타일 */
+/* Reply Style 댓글 스타일 */
 .cnt_cmt {display:inline-block;margin:0 0 0 3px;font-weight:bold}
 
-/* 기본테이블 */
+/* Basic Table 기본테이블 */
 .tbl_wrap table {width:100%;border-collapse:collapse;border-spacing:0}
 .tbl_wrap caption {padding:10px 0;font-weight:bold;text-align:left}
 
@@ -551,7 +539,7 @@ a.btn_admin:focus, a.btn_admin:hover {text-decoration:none}
 .tbl_head02 td {padding:5px 3px;border-top:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;line-height:1.4em;word-break:break-all}
 .tbl_head02 a {}
 
-/* 폼 테이블 */
+/* Form Table 폼 테이블 */
 .tbl_frm01 {margin:0 0 20px}
 .tbl_frm01 table {width:100%;border-collapse:collapse;border-spacing:0}
 .tbl_frm01 th {width:70px;padding:7px 13px;border:1px solid #e9e9e9;border-left:0;background:#f5f8f9;text-align:left}
@@ -568,10 +556,10 @@ a.btn_admin:focus, a.btn_admin:hover {text-decoration:none}
 .empty_table {padding:50px 0 !important;text-align:center}
 .empty_list {padding:20px 0 !important;text-align:center}
 
-/* 필수입력 */
+/* Mandatory Input 필수입력 */
 .required, textarea.required {background:url('../../assets/doggo.jpg') #f7f7f7 top right no-repeat !important}
 
-/* 테이블 항목별 정의 */
+/* Table Define by Items 테이블 항목별 정의 */
 .td_board {width:120px;text-align:center}
 .td_category {width:80px;text-align:center}
 .td_chk {width:30px;text-align:center}
@@ -591,7 +579,7 @@ a.btn_admin:focus, a.btn_admin:hover {text-decoration:none}
 .txt_expired {color:#ccc}
 .txt_rdy {color:#8abc2a}
 
-/* 새창 기본 스타일 */
+/* New Window Basic Style 새창 기본 스타일 */
 .new_win {}
 .new_win .tbl_wrap {margin:0 20px}
 .new_win #win_title {margin:0 0 20px;padding:20px;border-top:3px solid #333;border-bottom:1px solid #dde4e9;background:#fff;font-size:1.2em}
@@ -608,15 +596,15 @@ a.btn_admin:focus, a.btn_admin:hover {text-decoration:none}
 .new_win .win_btn a {display:inline-block;padding:0 10px;height:30px;background:#4b545e;color:#fff;vertical-align:middle;line-height:2.4em}
 .new_win .win_btn a:focus, .new_win .win_btn a:hover {text-decoration:none}
 
-/* 검색결과 색상 */
+/* Search Results Color 검색결과 색상 */
 .sch_word {color:#ff3061}
 
-/* 자바스크립트 alert 대안 */
+/* Java Script Alert Alternatice 자바스크립트 alert 대안 */
 #validation_check {margin:100px auto;width:500px}
 #validation_check h1 {margin-bottom:20px;font-size:1.3em}
 #validation_check p {margin-bottom:20px;padding:30px 20px;border:1px solid #e9e9e9;background:#fff}
 
-/* 사이드뷰 */
+/* Side View 사이드뷰 */
 .sv_wrap {display:inline-block;position:relative;font-weight:normal}
 .sv_wrap .sv {z-index:1000;display:none;margin:5px 0 0;border:1px solid #283646}
 .sv_wrap .sv a {display:inline-block;margin:0;padding:3px;width:94px;border-bottom:1px solid #283646;background:#111;color:#fff !important}
@@ -624,7 +612,7 @@ a.btn_admin:focus, a.btn_admin:hover {text-decoration:none}
 .sv_on {display:block !important;position:absolute;top:10px;left:20px;width:auto;height:auto}
 .sv_nojs .sv {display:block}
 
-/* 페이징 */
+/* Page 페이징 */
 .pg_wrap {clear:both;margin:0 0 20px;padding:20px 0 0;text-align:center}
 .pg {}
 .pg_page, .pg_current {display:inline-block;padding:0 8px;height:25px;color:#000;letter-spacing:0;line-height:2.2em;vertical-align:middle}
@@ -634,5 +622,5 @@ a.btn_admin:focus, a.btn_admin:hover {text-decoration:none}
 .pg_end, .pg_next {/* 다음 */}
 .pg_current {display:inline-block;margin:0 4px 0 0;background:#333;color:#fff;font-weight:normal}
 
-/* Mobile화면으로 */
+/* Mobile 화면으로 */
 #device_change {display:block;margin:0.3em;padding:0.5em 0;border:1px solid #eee;border-radius:2em;background:#fff;color:#000;font-size:2em;text-decoration:none;text-align:center}
